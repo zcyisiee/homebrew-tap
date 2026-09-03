@@ -1,13 +1,13 @@
 cask "tearoff" do
-  version "4.0.1"
+  version "4.1.0"
 
   on_arm do
-    sha256 "7340f976a72be79d329878ab2826323d6bb9d13f36ef280048e029325e64e951"
+    sha256 "fe92d6e53bc4fd372d6adc29867ec3a9a4b22d26ddbda2646407cc2a36a64e20"
     url "https://github.com/zcyisiee/Tearoff/releases/download/v#{version}/Tearoff-v#{version}-arm64.dmg"
   end
 
   on_intel do
-    sha256 "8eec1158acdb421c7886d7db84231dbbc9ffb2283b9c0acf6ca60be0255782cb"
+    sha256 "05314af9ddf6e71595893f18797b8208eea4c890ee233bd175dec684b2949f7b"
     url "https://github.com/zcyisiee/Tearoff/releases/download/v#{version}/Tearoff-v#{version}-x86_64.dmg"
   end
 
